@@ -1,0 +1,48 @@
+public Student()
+{
+this.rollNumber=0;
+this.firstName="";
+this.dateofBirth=null;
+this.batch=null;
+this.isAdult=false;
+}
+public void setRollNumber(int rollNumber)
+{
+this.rollNumber=rollNumber;
+}
+public int getRollNumber()
+{
+return this.rollNumber;
+}
+public void setFirstName(java.lang.String firstName)
+{
+this.firstName=firstName;
+}
+public java.lang.String getFirstName()
+{
+return this.firstName;
+}
+public void setDateofBirth(java.util.Date dateofBirth)
+{
+this.dateofBirth=dateofBirth;
+}
+public java.util.Date getDateofBirth()
+{
+return this.dateofBirth;
+}
+public void setBatch(Batch batch)
+{
+this.batch=batch;
+}
+public Batch getBatch()
+{
+return this.batch;
+}
+public void setIsAdult(boolean isAdult)
+{
+this.isAdult=isAdult;
+}
+public boolean getIsAdult()
+{
+return this.isAdult;
+}
